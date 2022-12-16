@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Customized Page</title>
+
+    <link href="css/myStyles.css" rel="stylesheet" />
+</head>
+
+  <!-- Navigation -->
+  <div class="header">
+    <ul class="navBar">
+        <li>
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="#item">Item List</a>
+        </li>
+    </ul>   
+  </div>
+  
+<body>
+    <div class="container">
+        <div class="video-holder">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/X08NNJthZ3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div class="img-holder">
+            <img src="assets/img/profile.jpg" alt="My Image" width="500" height="500">
+        </div>
+    </div>
+
+    <div class="tableau-holder">
+        <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+
+        <tableau-viz id="tableauViz" src='https://public.tableau.com/views/Superstore_24/Overview' height='1200px' width='1100px' toolbar='bottom' hide-tabs></tableau-viz>
+    </div>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="list-holder">
+        <ol id="item">
+            <li>Item 1</li>
+            <li>Item 2
+                <ul>
+                    <li>Subitem 1</li>
+                    <li>Subitem 2</li>
+                    <li>Subitem 3</li>
+                </ul>
+            </li>
+            <li>Item 3</li>
+        </ol>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+
+</body>
+</html>
