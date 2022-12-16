@@ -49,8 +49,7 @@ body {
 }
 
 .tableau-holder {
-    z-index: 1;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .list-holder {
