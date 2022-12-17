@@ -29,13 +29,13 @@ main {
 }
 
 h1 {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC';
     font-size: 80px;
     margin: 3rem;
 }
 
 body {
-    margin-top: 100px;
+    margin-top: 50px;
     overflow-x: hidden;
     background-color: #fff2df;
     font-family: 'Raleway', sans-serif;
@@ -50,6 +50,7 @@ body {
 
 .tableau-holder {
     padding-top: 100px;
+    margin: 1rem;
 }
 
 .list-holder {
