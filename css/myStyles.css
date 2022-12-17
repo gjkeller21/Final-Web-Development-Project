@@ -51,6 +51,8 @@ body {
 .tableau-holder {
     padding-top: 100px;
     margin: 1rem;
+    width: 200px;
+    height: 200px;
 }
 
 .list-holder {
